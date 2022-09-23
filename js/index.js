@@ -15,7 +15,7 @@ const card_economy=document.getElementById('card_economy');
              <div class="card-body">
                <h5 class="card-title text-danger">${data[i].title}</h5>
                <p class="card-text">${data[i].breif}</p>
-               <a href="readnews.html?id=${data[i].id} class="btn btn-danger">READ</a>
+               <a href="readnews.html?id=${data[i].id}" class="btn btn-danger">READ</a>
              </div>
            </div>
          </div>
@@ -34,7 +34,7 @@ const card_economy=document.getElementById('card_economy');
            <div class="card-body">
              <h5 class="card-title text-danger">${data[i].title}</h5>
              <p class="card-text">${data[i].breif}</p>
-             <a href="readnews.html?id=${data[i].id} class="btn btn-danger">READ</a>
+             <a href="readnews.html?id=${data[i].id}" class="btn btn-danger">READ</a>
            </div>
          </div>
        </div>
@@ -52,7 +52,7 @@ const card_economy=document.getElementById('card_economy');
            <div class="card-body">
              <h5 class="card-title text-danger">${data[i].title}</h5>
              <p class="card-text">${data[i].breif}</p>
-             <a href="readnews.html?id=${data[i].id} class="btn btn-danger">READ</a>
+             <a href="readnews.html?id=${data[i].id}" class="btn btn-danger">READ</a>
            </div>
          </div>
        </div>
@@ -71,7 +71,7 @@ const card_economy=document.getElementById('card_economy');
              <div class="card-body">
                <h5 class="card-title text-danger">${data[i].title}</h5>
                <p class="card-text">${data[i].breif}</p>
-               <a href="readnews.html?id=${data[i].id} class="btn btn-danger">READ</a>
+               <a href="readnews.html?id=${data[i].id}" class="btn btn-danger">READ</a>
              </div>
            </div>
          </div>
