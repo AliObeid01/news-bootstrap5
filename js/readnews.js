@@ -6,7 +6,7 @@ const id=params.get('id');
     //fetch the a single new api with jquery method
     $.get(`http://localhost/news-bootstrap5/api/readnews.php?id=${id}`, function(data,status) {  
         readnew.innerHTML=
-        `<img src="${data[0].image}" class="card-img-top"></img>
+        `<img src="${data[0].image}" class="rounded mx-auto d-block"></img>
          <div class="card-header">
          ${data[0].title}
          </div>
@@ -16,7 +16,7 @@ const id=params.get('id');
            
          </div>
          <div class="card-footer text-muted">
-         ${data[0].author},${data[0].date_time}
+         ${data[0].author}, ${data[0].date_time}
          </div>
          `
         
