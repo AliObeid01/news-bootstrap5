@@ -6,7 +6,7 @@ header("Content-type:application/json");
 
 include("connection.php");
 
-$id=$_POST['id'];
+$id=$_GET['id'];
 
 $query = $mysqli->prepare("SELECT * from news where id=$id");
 $query->execute();
