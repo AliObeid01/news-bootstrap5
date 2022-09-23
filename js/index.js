@@ -1,7 +1,7 @@
 const card_last=document.getElementById('card_last');
     
     //fetch the latest news aoi with jquery method
-    $.get("http://localhost/news-bootstrap5/latest_news.php", function(data,status) {  
+    $.get("http://localhost/news-bootstrap5/api/latest_news.php", function(data,status) {  
         console.log(data);  
         for(let i=0;i<data.length;i++){
          card_last.innerHTML+=
